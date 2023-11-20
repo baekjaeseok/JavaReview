@@ -1,3 +1,7 @@
+/* MEMO
+ * 짐레이너(마린)이 스팀팩 사용시 HP 10 감소 
+ * 모랄레스(메딕)이 힐 사용시 MP10 감소 + 짐레이너(마린)의 HP 10증가
+ */
 package _02_Java_Constructor;
 
 public class Constructor_06 {
@@ -41,16 +45,16 @@ class Unit {
 	public void stimPack(Unit marine) {
 		System.out.print("[" + marine.name + "]의 스팀팩!  HP : " + marine.hp);
 		marine.hp -= 10;
-		System.out.println(" ->" + marine.hp);
+		System.out.println(" -> " + marine.hp);
 	}
 	
 	public void heal(Unit medic, Unit marine) {
 		System.out.println("[" + medic.name + "]의 힐!");
 		System.out.print("[" + marine.name + "]의 HP : " + marine.hp);
 		marine.hp += 10;
-		System.out.println(" ->" + marine.hp);
+		System.out.println(" -> " + marine.hp);
 		System.out.print("[" + medic.name + "]의 MP : " + medic.mp);
 		medic.mp -= 10;
-		System.out.println(" ->" + medic.mp);
+		System.out.println(" -> " + medic.mp);
 	}	
 }

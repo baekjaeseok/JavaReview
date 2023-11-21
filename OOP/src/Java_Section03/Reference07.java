@@ -26,7 +26,9 @@ class Point {
 	}
 	
 	public static double distance(Point p1, Point p2) {
-		double result = Math.sqrt((p2.x - p1.x)^2 + (p2.y - p1.y)^2);
+		double dx = p2.x - p1.x;
+		double dy = p2.y - p1.y;
+		double result = Math.sqrt((dx * dx) + (dy * dy));
 		return result;
 	}
 	

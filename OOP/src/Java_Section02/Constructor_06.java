@@ -2,7 +2,7 @@
  * 짐레이너(마린)이 스팀팩 사용시 HP 10 감소 
  * 모랄레스(메딕)이 힐 사용시 MP10 감소 + 짐레이너(마린)의 HP 10증가
  */
-package _02_Java_Constructor;
+package Java_Section02;
 
 public class Constructor_06 {
 	public static void main(String[] args) {

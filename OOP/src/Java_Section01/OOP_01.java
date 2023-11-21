@@ -6,7 +6,7 @@
  * 3. CLASS = FIELDS(상태) + METHODS(동작)
  */
 
-package _01_Java_OOP;
+package Java_Section01;
 
 public class OOP_01 {
 	public static void main(String[] args) {

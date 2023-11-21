@@ -2,7 +2,7 @@
  * 정사각형 클래스를 구현하려 한다. 이는 한변의 길이를 가지며,
  * 그 넓이를 반환할 수 있다.
  */
-package _01_Java_OOP;
+package Java_Section01;
 
 public class OOP_04 {
 	public static void main(String[] args) {

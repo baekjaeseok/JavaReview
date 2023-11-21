@@ -1,4 +1,4 @@
-package _02_Java_Constructor;
+package Java_Section02;
 
 public class Constructor_03 {
 	

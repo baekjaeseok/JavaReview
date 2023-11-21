@@ -1,7 +1,7 @@
 /* MEMO
  * 객체를 배열에 담기
  */
-package _02_Java_Constructor;
+package Java_Section02;
 
 public class Constructor_04 {
 	public static void main(String[] args) {

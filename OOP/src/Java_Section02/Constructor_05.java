@@ -1,7 +1,7 @@
 /*	MEMO
  * 객체 또한 메소드의 파라미터로 전달 가능
  */
-package _02_Java_Constructor;
+package Java_Section02;
 
 public class Constructor_05 {
 	public static void main(String[] args) {

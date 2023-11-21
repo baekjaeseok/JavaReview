@@ -1,7 +1,7 @@
 /* MEMO
  * Constructor (생성자) : 객체 생성, 초기화
  */
-package _02_Java_Constructor;
+package Java_Section02;
 
 public class Constructor_01 {
 	public static void main(String[] args) {

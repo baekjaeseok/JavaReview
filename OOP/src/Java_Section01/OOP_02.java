@@ -1,4 +1,4 @@
-package _01_Java_OOP;
+package Java_Section01;
 
 public class OOP_02 {
 	public static void main(String[] args) {

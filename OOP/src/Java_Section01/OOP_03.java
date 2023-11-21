@@ -3,7 +3,7 @@
  * 2. 메소드 스코프 : 파라미터, 지역변수
  */
 
-package _01_Java_OOP;
+package Java_Section01;
 
 public class OOP_03 {
 	public static void main(String[] args) {

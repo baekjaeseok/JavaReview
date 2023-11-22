@@ -6,16 +6,14 @@ public class _06_SectionExample {
 		Knight knight = new Knight("돈키호테", 30);
 		
 		System.out.println("[객체 생성]");
-		System.out.println( "      knight { name : " + knight.getName() + 
-				                   ", hp : " + knight.getHp() + " }");
+		System.out.println( "      knight { name : " + knight.getName() + ", hp : " + knight.getHp() + " }");
 		
 		
 		// 체력 증가
 		knight.setHp(knight.getHp() + 30);
 		
 		System.out.println("[체력 증가 + 30]");
-		System.out.println( "      knight { name : " + knight.getName() + 
-				                   ", hp : " + knight.getHp() + " }");
+		System.out.println( "      knight { name : " + knight.getName() + ", hp : " + knight.getHp() + " }");
 		
 	}
 }

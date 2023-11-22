@@ -14,7 +14,7 @@
  */
 
 package Java_Section04;
-public class AccessModifier {
+public class _01_AccessModifier {
 	public static void main(String[] args) {
 		
 		// 계좌 생성

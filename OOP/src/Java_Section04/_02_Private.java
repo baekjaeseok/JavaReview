@@ -3,7 +3,7 @@
  */
 package Java_Section04;
 
-public class Private {
+public class _02_Private {
 	public static void main(String[] args) {
 		
 		// wallet 객체 생성

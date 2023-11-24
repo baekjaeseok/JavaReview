@@ -19,6 +19,7 @@ public class _08_Example_Private {
 		monster.add(spatoy);
 		monster.add(deathNight);
 		
+		System.out.println("[언데드 몬스터 정보]");
 		for (int i = 0; i < monster.size(); i++) {
 			System.out.println(monster.get(i).toString());
 		}
@@ -43,7 +44,7 @@ class Ud{
 	}
 	
 	public String toString() {
-		return String.format("[언데드 몬스터] Name : %s, HP : %d", getName(), getHp());
+		return String.format("[언데드 몬스터] NAME: %s, HP: %d", getName(), getHp());
 	}
 }
 
@@ -58,9 +59,10 @@ class Spatoy extends Ud{
 	public int getMp() {
 		return mp;
 	}
-
+	
+	@Override
 	public String toString() {
-		return String.format("[언데드 몬스터] Name : %s, HP : %d, MP : %d", getName(), getHp(), getMp());
+		return String.format("[언데드 몬스터] NAME: %s, HP: %d, MP: %d", getName(), getHp(), getMp());
 	}
 }
 
@@ -76,7 +78,8 @@ class DeathNight extends Spatoy {
 		return this.amor;
 	}
 	
+	@Override
 	public String toString() {
-		return String.format("[언데드 몬스터] Name : %s, HP : %d, MP : %d, AMOR : %d", getName(), getHp(), getMp(), getAmor());
+		return String.format("[언데드 몬스터] NAME: %s, HP: %d, MP: %d, AMOR : %d", getName(), getHp(), getMp(), getAmor());
 	}
 }

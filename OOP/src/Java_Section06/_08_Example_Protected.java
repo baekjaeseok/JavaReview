@@ -5,7 +5,7 @@ package Java_Section06;
 
 import java.util.ArrayList;
 
-public class _08_Example {
+public class _08_Example_Protected {
 	public static void main(String[] args) {
 		
 		// [엘프] Name : 티란데, HP : 100

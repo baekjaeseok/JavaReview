@@ -66,5 +66,4 @@ class Thief extends Adventurer {
 	public void sharpen() {
 		System.out.println("치명타 확률이 증가합니다");
 	}
-	
 }
